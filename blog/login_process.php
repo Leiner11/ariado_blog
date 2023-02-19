@@ -12,8 +12,8 @@ if ($conn->connect_error) {
 }
 
 // Get username and password from form submission
-$username = $_POST['username'];
-$password = $_POST['password'];
+$username = $_POST['username'] ?? ' ';
+$password = $_POST['password'] ?? ' ';
 
 // Prepare SQL query to check if username and password match a record in the database
 $stmt = $conn->prepare("SELECT * FROM users WHERE username = ? AND password = ?");
