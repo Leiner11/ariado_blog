@@ -10,10 +10,6 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/blog/">
 
-    
-
-    
-
 <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
@@ -81,44 +77,31 @@
   <header class="blog-header lh-1 py-3">
     <div class="row flex-nowrap justify-content-between align-items-center">
       <div class="col-4 pt-1">
-        <a class="link-secondary" href="#">Subscribe</a>
+        World Building | ARIADO<br><br>
+        <a class="link-secondary" href="subscribe.php">Subscribe</a>
       </div>
       <div class="col-4 text-center">
-        <a class="blog-header-logo text-dark" href="#">Large</a>
+        <a class="blog-header-logo text-dark" href="#">WebSytems & Technology</a>
       </div>
       <div class="col-4 d-flex justify-content-end align-items-center">
         <a class="link-secondary" href="#" aria-label="Search">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
         </a>
-        <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
+        <a class="btn btn-sm btn-outline-secondary" href="registration.php">Sign up</a>
+		<a class="btn btn-sm btn-outline-secondary" href="login.php">Login</a>
       </div>
     </div>
   </header>
 
-  <div class="nav-scroller py-1 mb-2">
-    <nav class="nav d-flex justify-content-between">
-      <a class="p-2 link-secondary" href="#">World</a>
-      <a class="p-2 link-secondary" href="#">U.S.</a>
-      <a class="p-2 link-secondary" href="#">Technology</a>
-      <a class="p-2 link-secondary" href="#">Design</a>
-      <a class="p-2 link-secondary" href="#">Culture</a>
-      <a class="p-2 link-secondary" href="#">Business</a>
-      <a class="p-2 link-secondary" href="#">Politics</a>
-      <a class="p-2 link-secondary" href="#">Opinion</a>
-      <a class="p-2 link-secondary" href="#">Science</a>
-      <a class="p-2 link-secondary" href="#">Health</a>
-      <a class="p-2 link-secondary" href="#">Style</a>
-      <a class="p-2 link-secondary" href="#">Travel</a>
-    </nav>
-  </div>
+
 </div>
 
 <main class="container">
   <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
     <div class="col-md-6 px-0">
-      <h1 class="display-4 fst-italic">Title of a longer featured blog post</h1>
+      <h1 class="display-4 fst-italic">By the community, for the community</h1>
       <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
-      <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
+      <p class="lead mb-0"><a href="#" class="text-white fw-bold">Create your own blog now!</a></p>
     </div>
   </div>
 
@@ -156,122 +139,88 @@
   <div class="row g-5">
     <div class="col-md-8">
       <h3 class="pb-4 mb-4 fst-italic border-bottom">
-        From the Firehose
+        From the WorldBuilding Magazine...
       </h3>
 
       <article class="blog-post">
-        <h2 class="blog-post-title mb-1">Sample blog post</h2>
-        <p class="blog-post-meta">January 1, 2021 by <a href="#">Mark</a></p>
+        <h2 class="blog-post-title mb-1">What is Worldbuilding?</h2>
+        <p class="blog-post-meta">February 19, 2023 by <a href="#">Reniel</a></p>
 
-        <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, lists, tables, images, code, and more are all supported as expected.</p>
+        <p>Worldbuilding is the process of constructing an imaginary world, often associated with a novel, film, or other media.</p>
         <hr>
-        <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
-        <h2>Blockquotes</h2>
-        <p>This is an example blockquote in action:</p>
+        <p>Our community is a close-knit group of authors, readers, game developers, gamers, and creative hobbyists. Join us on social media or Discord to discuss worldbuilding with us!
+
+Want to make your own mark? Contact us with some information about what you would like to work on! Join our team of volunteer writers, editors, artists, and more who make Worldbuilding Magazine and the Worldbuilding Podcast possible!</p>
+        <h2>Guidance on Worldbuilding</h2>
+        <p>When it comes to WorldBuilding, everything, even minor details, are important!</p>
         <blockquote class="blockquote">
-          <p>Quoted text goes here.</p>
+          <p>"A civilization of time travelers collapses when one of them wants to get laid." - One-line summary of The End of Eternity by Isaac Asimov</p>
         </blockquote>
-        <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
-        <h3>Example lists</h3>
-        <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout. This is an example unordered list:</p>
+        <p>Our team provides advice and inspiration in every magazine and podcast we create. Read or listen in on a variety of topics to help enrich your world.</p>
+        <h3>Latest Issue</h3>
+        <p>Worldbuilding Magazine is proud to present our 2022 issue: Disasters & Apocalypses. We have a good mix of showcases, fiction, and articles this time around, all focused on endings and beginnings. It’s particularly appropriate for us as the magazine restructures and exciting new plans are being made for our future. For now, we’d like to present:</p>
         <ul>
-          <li>First list item</li>
-          <li>Second list item with a longer description</li>
-          <li>Third list item to close it out</li>
-        </ul>
-        <p>And this is an ordered list:</p>
-        <ol>
-          <li>First list item</li>
-          <li>Second list item with a longer description</li>
-          <li>Third list item to close it out</li>
-        </ol>
-        <p>And this is a definition list:</p>
-        <dl>
-          <dt>HyperText Markup Language (HTML)</dt>
-          <dd>The language used to describe and define the content of a Web page</dd>
-          <dt>Cascading Style Sheets (CSS)</dt>
-          <dd>Used to describe the appearance of Web content</dd>
-          <dt>JavaScript (JS)</dt>
-          <dd>The programming language used to build advanced Web sites and applications</dd>
+<li>Four amazing articles on worldbuilding theory and practice.</li>
+<li>Two short stories about endings, big and small.</li>
+<li>An interview with Joe Mallozzi, writer and producer of television shows like Stargate and Dark Matter, in which we learn of the secrets for creating worlds that keep bringing viewers back.</li>
+<li>An art showcase featuring Trevor Roberts’ spectacular Mystery Flesh Pit Park, the natural wonder that you won’t want to miss.</li>
+<li>An interview with Jason Massey of the Dungeons and Randomness podcast showcasing their setting, Theria..</li>
+<li>Reviews and analyses of four books that feature outstanding queer worldbuilding.</li>
+<li>Staff picks for the things that we’re reading and watching, and your questions answered in our Ask Us Anything column!</li>
+
+          <dd></dd>
         </dl>
-        <h2>Inline HTML elements</h2>
-        <p>HTML defines a long list of available inline tags, a complete list of which can be found on the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network</a>.</p>
-        <ul>
-          <li><strong>To bold text</strong>, use <code class="language-plaintext highlighter-rouge">&lt;strong&gt;</code>.</li>
-          <li><em>To italicize text</em>, use <code class="language-plaintext highlighter-rouge">&lt;em&gt;</code>.</li>
-          <li>Abbreviations, like <abbr title="HyperText Markup Language">HTML</abbr> should use <code class="language-plaintext highlighter-rouge">&lt;abbr&gt;</code>, with an optional <code class="language-plaintext highlighter-rouge">title</code> attribute for the full phrase.</li>
-          <li>Citations, like <cite>— Mark Otto</cite>, should use <code class="language-plaintext highlighter-rouge">&lt;cite&gt;</code>.</li>
-          <li><del>Deleted</del> text should use <code class="language-plaintext highlighter-rouge">&lt;del&gt;</code> and <ins>inserted</ins> text should use <code class="language-plaintext highlighter-rouge">&lt;ins&gt;</code>.</li>
-          <li>Superscript <sup>text</sup> uses <code class="language-plaintext highlighter-rouge">&lt;sup&gt;</code> and subscript <sub>text</sub> uses <code class="language-plaintext highlighter-rouge">&lt;sub&gt;</code>.</li>
-        </ul>
-        <p>Most of these elements are styled by browsers with few modifications on our part.</p>
-        <h2>Heading</h2>
-        <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
-        <h3>Sub-heading</h3>
-        <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
-        <pre><code>Example code block</code></pre>
-        <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
-      </article>
 
       <article class="blog-post">
-        <h2 class="blog-post-title mb-1">Another blog post</h2>
-        <p class="blog-post-meta">December 23, 2020 by <a href="#">Jacob</a></p>
+        <h2 class="blog-post-title mb-1">Podcast</h2>
+        <p class="blog-post-meta">February 19, 2023 by <a href="#">Reniel</a></p>
 
-        <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
-        <blockquote>
-          <p>Longer quote goes here, maybe with some <strong>emphasized text</strong> in the middle of it.</p>
-        </blockquote>
-        <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
-        <h3>Example table</h3>
-        <p>And don't forget about tables in these posts:</p>
+        <p>Worldcasting is a weekly podcast with a constantly rotating panel of speakers and guests. Together, the they will draw upon their varied backgrounds and experiences to discuss worldbuilding in its many forms, and how to express it in a variety of media.
+Worldcasting is available on most podcast platforms!</p>
+
+        <h3>Current part of our WorldBuilding Team</h3>
+        <p>The following are our newest and oldest members!</p>
         <table class="table">
           <thead>
             <tr>
               <th>Name</th>
-              <th>Upvotes</th>
-              <th>Downvotes</th>
+              <th>Role</th>
+              <th>Area</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Alice</td>
-              <td>10</td>
-              <td>11</td>
+              <td>Reniel</td>
+              <td>World Building Writer</td>
+              <td>UPHSL</td>
             </tr>
             <tr>
-              <td>Bob</td>
-              <td>4</td>
-              <td>3</td>
+              <td>Josh</td>
+              <td>World Building Writer</td>
+              <td>UPHSL</td>
             </tr>
             <tr>
-              <td>Charlie</td>
-              <td>7</td>
-              <td>9</td>
+              <td>Raven</td>
+              <td>Game Mechanics</td>
+              <td>UPHSL</td>
+            </tr>
+            <tr>
+         		<td>Michael</td>
+              <td>World Building Writer</td>
+              <td>UPHSL</td>
+            </tr>
+            <tr>
+         		<td>Xander</td>
+              <td>Character Design Artist</td>
+              <td>UPHSL</td>
+
             </tr>
           </tbody>
           <tfoot>
-            <tr>
-              <td>Totals</td>
-              <td>21</td>
-              <td>23</td>
-            </tr>
           </tfoot>
         </table>
 
-        <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
-      </article>
-
-      <article class="blog-post">
-        <h2 class="blog-post-title mb-1">New feature</h2>
-        <p class="blog-post-meta">December 14, 2020 by <a href="#">Chris</a></p>
-
-        <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
-        <ul>
-          <li>First list item</li>
-          <li>Second list item with a longer description</li>
-          <li>Third list item to close it out</li>
-        </ul>
-        <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
+        <p>Contact us to be part of our team!</p>
       </article>
 
       <nav class="blog-pagination" aria-label="Pagination">
@@ -285,25 +234,7 @@
       <div class="position-sticky" style="top: 2rem;">
         <div class="p-4 mb-3 bg-light rounded">
           <h4 class="fst-italic">About</h4>
-          <p class="mb-0">Customize this section to tell your visitors a little bit about your publication, writers, content, or something else entirely. Totally up to you.</p>
-        </div>
-
-        <div class="p-4">
-          <h4 class="fst-italic">Archives</h4>
-          <ol class="list-unstyled mb-0">
-            <li><a href="#">March 2021</a></li>
-            <li><a href="#">February 2021</a></li>
-            <li><a href="#">January 2021</a></li>
-            <li><a href="#">December 2020</a></li>
-            <li><a href="#">November 2020</a></li>
-            <li><a href="#">October 2020</a></li>
-            <li><a href="#">September 2020</a></li>
-            <li><a href="#">August 2020</a></li>
-            <li><a href="#">July 2020</a></li>
-            <li><a href="#">June 2020</a></li>
-            <li><a href="#">May 2020</a></li>
-            <li><a href="#">April 2020</a></li>
-          </ol>
+          <p class="mb-0">The webpage author, Reniel A. Ariado, is a college student who is taking a Bachelor of Science in Information Technology program at UPHSL - Jonelta.</p>
         </div>
 
         <div class="p-4">

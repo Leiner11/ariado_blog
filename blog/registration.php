@@ -49,7 +49,7 @@
 			<button type="submit" name="submit" class="btn btn-primary">Submit</button><br><br>
 		</form>
 		<form>
-			<button type="submit" class="btn btn-primary" formaction="login.php">Go to Login</button>
+			<button type="submit" class="btn btn-primary" formaction="index.php">Go to Home</button>
 		</form>
 	</div>
 <?php
@@ -79,6 +79,9 @@
 				$sql = "INSERT INTO users (username, password, first_name, middle_name, last_name, age, birthday, address) VALUES ('$username', '$password', '$first_name', '$middle_name', '$last_name', '$age', '$birthday', '$address')";
 				if ($conn->query($sql) === TRUE) {
 				    echo "New record created successfully";
+					header("Location: account_created.php");
+ 
+					exit;
 				} else {
 				    echo "Error: " . $sql . "<br>" . $conn->error;
 				}
