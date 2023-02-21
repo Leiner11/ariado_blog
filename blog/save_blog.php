@@ -31,7 +31,8 @@ $sql = "INSERT INTO users_blog (username, blog_title, blog_content, timestamp)
         VALUES ('$username', '$blog_title', '$blog_content', '$timestamp')";
 
 if ($conn->query($sql) === TRUE) {
-  echo "Blog post saved successfully!";
+		header('Location: show_blog.php');
+		exit();
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;
 }

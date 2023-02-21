@@ -81,7 +81,7 @@
         <a class="link-secondary" href="subscribe.php">Subscribe</a>
       </div>
       <div class="col-4 text-center">
-        <a class="blog-header-logo text-dark" href="#">WebSytems & Technology</a>
+        <a class="blog-header-logo text-dark" href="#">WebSystems & Technology</a>
       </div>
       <div class="col-4 d-flex justify-content-end align-items-center">
         <a class="link-secondary" href="#" aria-label="Search">
@@ -197,7 +197,7 @@ Worldcasting is available on most podcast platforms!</p>
       </article>
 
       <nav class="blog-pagination" aria-label="Pagination">
-        <a class="btn btn-outline-primary rounded-pill" href="#">Blog Posts</a>
+        <a class="btn btn-outline-primary rounded-pill" href="show_blog.php">Blog Posts</a>
         <a class="btn btn-outline-secondary rounded-pill disabled">Home</a>
       </nav>
 
