@@ -33,7 +33,7 @@
 				<button type="submit" name="action" value="delete" class="btn btn-primary">Delete</button><br><br>
 				</form>
 				<form action="check.php" method="POST">
-				<button type="submit" class="btn btn-primary" formaction="landingpage.php">Home</button>
+				<button type="submit" class="btn btn-primary" formaction="index.php">Home</button>
 				</form>
 			</div>
 		</div>
@@ -76,8 +76,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql = "DELETE FROM users WHERE username = '$username' AND password = '$password'";
     
     if ($conn->query($sql) === TRUE) {
-      echo "Account deleted successfully.";
-		
+      	header("Location: delete_success_message.php");
+		exit();
+
     } else {
       echo "Error deleting account: " . $conn->error;
     }
@@ -87,8 +88,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql = "DELETE FROM users WHERE username = '$username' AND password = '$password'";
     
     if ($conn->query($sql) === TRUE) {
-		echo "Account deleted successfully.";
-
+		header("Location: delete_success_message.php");
+		exit();
 
     } else {
       echo "Error deleting account: " . $conn->error;

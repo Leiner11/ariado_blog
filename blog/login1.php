@@ -14,7 +14,7 @@
 		<div class="row justify-content-center">
 			<div class="col-md-6 col-offset-3">
 				<h2>Login</h2>
-				<form action="login_process.php" method="post">
+				<form action="login_process1.php" method="post">
 					<div class="form-group">
 						<label for="username">Username</label>
 						<input type="text" class="form-control" id="username" name="username" required>

@@ -22,7 +22,7 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
 		$row = $result->fetch_assoc();
 		session_start();
 		$_SESSION['username'] = $row['username'];
-		header('Location: index1.php');
+		header('Location: blog.php');
 		exit();
 	} else {
 		// The username or password is incorrect

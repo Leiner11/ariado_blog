@@ -6,9 +6,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   </head>
   <body>
+
     <div class="container">
-      <h1 class="text-center">WebSystems & Technology | World Building</h1>
+	&nbsp;<h1 class="text-center">WebSystems & Technology | World Building</h1>
       <hr>
+<form>
+	<button type="submit" name="submit" class="btn btn-primary" formaction="index.php">Home</button><br><br>
+</form>
       <?php
         // connect to the database
         $db = new mysqli('localhost', 'admin', 'admin', 'userprofile');
@@ -19,7 +23,7 @@
         }
 
         // query the database for blog posts
-        $query = 'SELECT * FROM users_blog';
+        $query = "SELECT * FROM users_blog ORDER BY timestamp DESC";
         $result = $db->query($query);
 
         // loop through each row and display the post
@@ -38,5 +42,6 @@
         $db->close();
       ?>
     </div>
+
   </body>
 </html>
